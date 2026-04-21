@@ -1,0 +1,48 @@
+# API keys and config with secrets
+config.json
+
+# Generated pipeline state and outputs (large + sensitive)
+state/pipeline_state.json
+state/key_quota.json
+data/
+
+# Generated sessions output
+output/
+
+# Static build output
+dist/
+
+# Python
+env/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.egg
+.Python
+build/
+
+# Environment files
+.env
+.env.*
+*.env
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Project instruction file (local dev only)
+CLAUDE.md
+
+# Claude Code local settings
+.claude/
+
+# Source PDFs (copyrighted, large)
+*.pdf
